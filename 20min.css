@@ -1,12 +1,32 @@
-
+header{
+    display:flex;
+    justify-content: space-around;
+}
+.Logo20min{
+    width: 5px;
+}
+.ClaireLogo{
+    width: 50%;
+    height: 50%;
+}
 .TitreDroite{
-    display: flex;
-    justify-content: flex-end;
+    float:right;
+    align-items:center;
 }
-.Claire{
-    display: flex;
-    justify-content: flex-end;
+.Min20{
+    border: 1em;
+    padding: 1%;
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    
+    }
+#Min20 h1{
+    color: darkblue;
 }
+
+
+/*
 footer{
     display: flex;
     align-items: flex-end;
@@ -19,9 +39,8 @@ aside{
     flex:30%;
 
 }
-.Logo20min{
-    width: 1%;
-}
+
+
    
 
 
