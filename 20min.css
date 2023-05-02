@@ -1,44 +1,81 @@
-header{
-    display:flex;
-    justify-content: space-around;
+
+.header{
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    margin: 2px;
+    
+    
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
 }
-.Logo20min{
-    width: 5px;
+  .header>div{
+    
+    padding: 40px;
+     margin: 10px;
+    
+  }
+  .Logo20min{
+    width: 200px;
+  }
+  #ClaireLogo{
+    width: 300px;
+    height: 300px;
+  }
+#PARIS{
+    border: 1em;
+    padding: 1%;
+    background-color:darkblue;
+    color: white;
+    text-align: center;
 }
-.ClaireLogo{
-    width: 50%;
-    height: 50%;
-}
-.TitreDroite{
-    float:right;
-    align-items:center;
-}
+
 .Min20{
     border: 1em;
     padding: 1%;
     background-color:darkblue;
     color: white;
     text-align: center;
-    
-    }
-#Min20 h1{
-    color: darkblue;
+}
+    h1.first-child{
+    color: rgb(179, 24, 24);
 }
 
+main{
+    display: flex;
+    justify-content:flex-start;
+}
 
-/*
+.aside>div{
+    padding: 40px;
+    margin: 10px;
+       
+      }
+#Crillon{
+    width: 200px;
+    height: 200px;
+}
+#Masksinger{
+    width: 200px;
+    height: 200px;
+}
+#couple{
+    width: 1000px;
+    height: 900px;
+    align-items:center;
+}
+
 footer{
     display: flex;
     align-items: flex-end;
+    margin: 10px;
     
 }
-aside{
-    display:flex;
-    flex-direction: column;
-    columns: 2em;
-    flex:30%;
-
+div>h2{
+    color: darkblue;
 }
+
 
 
    
